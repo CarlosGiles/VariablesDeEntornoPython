@@ -94,7 +94,8 @@ Imagina que tenemos un pequeño script que se conecta a una base de datos (ficti
 ```python
 import os
 from dotenv import load_dotenv
-import psycopg2  # Librería hipotética para conectarse a Postgres (a modo de ejemplo)
+# Librería hipotética para conectarse a Postgres (a modo de ejemplo)
+import psycopg2
 
 # Cargar variables .env
 load_dotenv()
